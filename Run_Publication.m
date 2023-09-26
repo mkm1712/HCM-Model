@@ -53,7 +53,8 @@ APO_C(nn)=real(y1(end,92));
 APO_T(nn)=real(y4(end,92));
 end
 toc
-%%
+%%  
+%unzip Main-Run file and then load it
 load ('Main-Run')
 % Data preparation
 [~, TF1]=rmmissing(Genes_control,2);
